@@ -1,10 +1,11 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import AppStack from './src/navigation/AppStack'
 
-export default function App() {
+export default function MoodDairy() {
   return (
-    <AppStack/>
+    <View>
+      <Text>MoodDairy</Text>
+    </View>
   )
 }
 

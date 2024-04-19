@@ -1,10 +1,11 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import AppStack from './src/navigation/AppStack'
 
-export default function App() {
+export default function Care() {
   return (
-    <AppStack/>
+    <View>
+      <Text>Care</Text>
+    </View>
   )
 }
 

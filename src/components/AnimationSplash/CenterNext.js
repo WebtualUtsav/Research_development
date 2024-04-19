@@ -1,10 +1,11 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import AppStack from './src/navigation/AppStack'
 
-export default function App() {
+export default function CenterNext() {
   return (
-    <AppStack/>
+    <View>
+      <Text>CenterNext</Text>
+    </View>
   )
 }
 
